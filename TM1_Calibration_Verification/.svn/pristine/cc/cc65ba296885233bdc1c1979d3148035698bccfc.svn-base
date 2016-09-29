@@ -1,0 +1,77 @@
+﻿*  Check for events
+
+*  add SN clear sn button, disable while test running.
+
+*  Detect USB removal, allow units to be removed while test running.
+
+*  Check entries on test start
+
+*  Log specs
+
+*  If login fails try to recover with ctrl-d (h2scan) or cycling COM port.
+
+*  Log test results to database
+
+*  Add TM8 startup / purge scripts
+
+*  Allow multiple assembly versions.
+
+
+
+
+
+
+
+DONE
+
+*   Add UUT results test box
+
+*  set to field mode
+
+*  Download files
+
+*  CLear logs
+
+*  add time start to log when tests start & stop
+
+*  Create logs locally and transfer if network is available. 
+
+*  Capture tables to network folders
+
+*  Final Cleanup:
+	h2scan cli:   t d,  dump all data logs
+	              m     lab mode
+				  t c
+				  is    
+
+*  AppendText, arg definition to write to all UUT's
+
+*  Check prev tests
+
+*  Log pass / fail
+
+*  INITIAL:  verify date against network time
+
+*  copy tables from local folder to network
+
+*  test report.txt
+
+*  Parse ROC as Integer, sometimes = '#N/A'
+
+*  Test buttons cause test restart while running.
+
+*  UUT STOP button, enable when uut test started, disabled when stopped, confirm with dialog
+
+*  Verify no SN duplicates
+
+*  Check SN format on Entry
+
+*  ETA, hours & date
+
+*  During verification report how many rec's in spec.
+
+*  FINAL_TEST:  Get cal early
+
+*  auto generate test report.
+
+*  Add menu print test reports.
